@@ -7,10 +7,12 @@ for i in range(test_cases):
     is_multiple_of_5 = False
 
     for d in range(digits):
-            for n in number:
-                if int(n) == 5 or int(n) == 0:
-                    is_multiple_of_5 = True
-                    break
+        for n in number:
+            if int(n) == 5 or int(n) == 0:
+                is_multiple_of_5 = True
+                break
+        if is_multiple_of_5:
+            break
 
     if is_multiple_of_5:
         print('Yes')
