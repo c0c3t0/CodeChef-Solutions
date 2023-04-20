@@ -5,8 +5,6 @@ for i in range(test_cases):
     count = 0
     max_count = 0
 
-
-
     for v in text:
         if v in ('aeiou'):
             count += 1
