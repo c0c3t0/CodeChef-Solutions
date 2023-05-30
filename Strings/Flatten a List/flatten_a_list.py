@@ -1,7 +1,4 @@
 def largest_difference(arr):
-    # largest = max(arr)
-    # smallest = min(arr)
-
     return max(arr) - min(arr)
 
 
