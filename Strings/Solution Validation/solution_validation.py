@@ -15,6 +15,3 @@ def validate(string):
         return 'missing return'
     else:
         return True
-    
-
-print(validate())
