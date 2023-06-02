@@ -1,5 +1,5 @@
 def color_invert(rgb):
-    return (abs(rgb[0]-255), abs(rgb[1]-255), abs(rgb[2]-255))
+    return (255 - rgb[0], 255 - rgb[1], 255 - rgb[2])
 
 
 print(color_invert((255, 255, 255)))
